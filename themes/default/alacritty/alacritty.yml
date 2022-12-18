@@ -1,0 +1,40 @@
+### alacritty.yml
+### cwillsey06
+### 2022-12-15 [20:42]
+
+## Include
+import:
+  - ~/.config/alacritty/scheme.yml
+
+## Global
+env:
+  TERM: alacritty
+
+## Window settings
+window:
+  padding:
+    x: 10
+    y: 10
+
+# Scrolling
+  history: 10000
+  multiplier: 3
+
+  opacity: 0.67
+
+cursor:
+  style:
+    shape: Underline
+    blinking: On
+
+  unfocused_hollow: true
+
+## Font
+font:
+  size: 13
+  normal:
+    family: "Monofur Nerd Font"
+
+## Miscellaneous
+live_config_reload: true
+

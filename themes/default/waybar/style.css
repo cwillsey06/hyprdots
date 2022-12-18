@@ -1,0 +1,19 @@
+* {
+	color: white;
+    font-family: 'SF Pro Text', 'Monofur Nerd Font', sans-serif;
+    font-size: 15px;
+	border: none;
+	border-radius: 0;
+	min-height: 0;
+}
+
+window#waybar {
+	background-color: rgba(0, 0, 0, 0.5);
+	margin-left: 14px;
+	margin-right: 14px;
+}
+
+button {
+	padding-left: 10px;
+	padding-right: 10px;
+}
