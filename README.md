@@ -8,9 +8,8 @@
 
 ## Dependencies
 
-Not every config requires the same dependencies, you may only need some of these deps depending on your config.
+### Fedora
 
-The following dependencies apply to Fedora 36-37:  
 ```sh
 swaylock-effects \
 hyprland-git \
