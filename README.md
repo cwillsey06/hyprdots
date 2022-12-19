@@ -8,9 +8,8 @@
 
 ## Dependencies
 
-Not every config requires the same dependencies, you may only need some of these deps depending on your config.
+### Fedora
 
-The following dependencies apply to Fedora 36-37:  
 ```sh
 swaylock-effects \
 hyprland-git \
@@ -24,14 +23,15 @@ mako \
 wofi \
 ```
 
-`Hyprland-git` Copr: https://copr.fedorainfracloud.org/coprs/kasion/Hyprland-git/  
-`swaylock-effects` Copr: https://copr.fedorainfracloud.org/coprs/eddsalkield/swaylock-effects/  
+The following dependencies can be found on Copr:  
+[`Hyprland-git`](https://copr.fedorainfracloud.org/coprs/kasion/Hyprland-gi)
+[`swaylock-effects`](https://copr.fedorainfracloud.org/coprs/eddsalkield/swaylock-effect)
 
-**The following deps must be installed manually:**  
-`waybar-hyprland-git`: https://wiki.hyprland.org/Useful-Utilities/Status-Bars/#waybar  
-`grimblast`: https://github.com/hyprwm/contrib/tree/main/grimblast  
-`hyprpicker`: https://github.com/hyprwm/hyprpicker  
-`swww`: https://github.com/Horus645/swww  
+The following dependencies must be installed manually:  
+[`waybar-hyprland-git`](https://wiki.hyprland.org/Useful-Utilities/Status-Bars/#waybar)
+[`grimblast`](https://github.com/hyprwm/contrib)
+[`hyprpicker`](https://github.com/hyprwm/hyprpicker)
+[`swww`](https://github.com/Horus645/swww)
 
 ## Installation
 
