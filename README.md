@@ -28,10 +28,10 @@ wofi \
 `swaylock-effects` Copr: https://copr.fedorainfracloud.org/coprs/eddsalkield/swaylock-effects/  
 
 **The following deps must be installed manually:**  
-`waybar-hyprland-git`: https://wiki.hyprland.org/Useful-Utilities/Status-Bars/#waybar
-`grimblast`: https://github.com/hyprwm/contrib/tree/main/grimblast
-`hyprpicker`: https://github.com/hyprwm/hyprpicker
-`swww`: https://github.com/Horus645/swww
+`waybar-hyprland-git`: https://wiki.hyprland.org/Useful-Utilities/Status-Bars/#waybar  
+`grimblast`: https://github.com/hyprwm/contrib/tree/main/grimblast  
+`hyprpicker`: https://github.com/hyprwm/hyprpicker  
+`swww`: https://github.com/Horus645/swww  
 
 ## Installation
 
