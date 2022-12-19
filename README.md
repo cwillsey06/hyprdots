@@ -1,6 +1,6 @@
 # Hyprdots ⚡
 
-![Preview v1.0.0](https://i.ibb.co/0yrVmRY/preview-1-0-0.png)
+[![Preview v1.0.0](https://i.ibb.co/0yrVmRY/preview-1-0-0.png)](https://i.ibb.co/0yrVmRY/preview-1-0-0.png)
 
 > *A powerful Hyprland config with a simplistic, modular structure.*
 
