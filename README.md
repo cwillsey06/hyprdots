@@ -49,7 +49,7 @@ git clone https://github.com/cwillsey06/hyprdots.git ~/.config/hypr
 Configurations can be set by creating a link to the config you want to use, and renaming said link to `active`.  
 (There will soon be a way to set your active theme without touching the folder structure)
 
-An easy place to start is the `Light` configuration. You can find it in `themes/`
+An easy place to start is the `Light` configuration. You can find it in [`themes/Light/`](https://github.com/cwillsey06/hyprdots/tree/main/themes/Light)
 
 ## Credits
 
