@@ -1,6 +1,6 @@
 Net/ThemeName "Qogir-Light"
 Net/IconThemeName "Adwaita"
-Gtk/CursorThemeName "BreezeX-Black"
+Gtk/CursorThemeName "BreezeX-Light"
 Net/EnableEventSounds "0"
 Net/EnableInputFeedbackSounds "0"
 Xft/DPI "-1"
