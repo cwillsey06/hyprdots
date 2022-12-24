@@ -1,0 +1,31 @@
+{
+    "label" : "logout",
+    "action" : "loginctl terminate-user $USER",
+    "text" : "L[o]gout",
+    "keybind" : "o"
+}
+{
+    "label" : "lock",
+    "action" : "$HOME/.config/hypr/bin/lock.sh"
+    "text" : "[L]ock",
+    "keybind" : "l"
+}
+{
+    "label" : "suspend",
+    "action" : "$HOME/.config/hypr/bin/lock.sh --suspend"
+    "text" : "[S]uspend",
+    "keybind" : "s"
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "Shut[d]own",
+    "keybind" : "d"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "[R]eboot",
+    "keybind" : "r"
+}
+

@@ -1,0 +1,97 @@
+/// config.jsonc
+/// cwillsey06
+/// 2022-12-17 [16:25]
+
+// Waybar configuration file
+{
+	// Bar
+    "height": 26,
+    "spacing": 10,
+
+	// Module placement
+    "modules-left": ["custom/sysmenu", "wlr/workspaces", "hyprland/window"],
+    "modules-center": ["custom/media"],
+    "modules-right": ["custom/blanksep", "cpu", "memory", "custom/blanksep", "pulseaudio", "custom/blanksep", "clock", "tray"],
+
+	// Custom module configuration
+	"custom/sep": {
+		"format": " | ",
+        "tooltip": false
+	},
+
+	"custom/blanksep": {
+		"format": "  ",
+        "tooltip": false
+	},
+
+	"custom/sysmenu": {
+		"format": " [ menu ] ",
+        "tooltip": false,
+		"on-click": "if [[ -z `pidof wofi` ]]; then wofi --show drun; fi"
+	},
+
+	"custom/media": {
+	    "format": "{icon} {}",
+	    "return-type": "json",
+    	"format-icons": {
+        	"Playing": "",
+        	"Paused": " "
+	    },
+    	"max-length": 40,
+		"restart-interval": 5,
+	    "exec": "playerctl -a metadata --format '{\"text\": \"{{artist}} - {{markup_escape(title)}}\", \"tooltip\": \"\", \"alt\": \"{{status}}\", \"class\": \"{{status}}\"}' -F",
+    	"on-click": "playerctl play-pause"
+	},
+
+	// Standard module configuration
+    "wlr/workspaces": {
+		"sort-by-coordinates": true,
+		"sort-by-number": true,
+        "all-outputs": false,
+		"format": "{icon}",
+        "format-icons": {
+            "urgent": " ",
+            "active": " ",
+            "default": " "
+        }
+    },
+	"hyprland/window": {
+    	"max-length": 40
+	},
+
+    "tray": {
+        "spacing": 10
+    },
+
+    "clock": {
+        "format": "{:%Y-%m-%d [%H:%M]}"
+    },
+
+    "cpu": {
+        "format": "{usage}%  ",
+        "tooltip": false
+    },
+
+    "memory": {
+        "format": "{}%  ",
+        "tooltip": false
+    },
+
+    "temperature": {
+        "critical-threshold": 80,
+        "format": "{temperatureF}°F {icon}",
+        "format-icons": [" ", " ", " "],
+        "tooltip": false
+    },
+
+    "pulseaudio": {
+        "format": "{icon} {volume}%",
+        "format-muted": "婢 ",
+        "format-icons": {
+            "default": ["奄 ", "奔 ", "墳 "]
+        },
+        "on-click": "pavucontrol",
+        "tooltip": false
+    }
+}
+
