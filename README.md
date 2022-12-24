@@ -53,5 +53,5 @@ An easy place to start is the `Light` configuration. You can find it in `themes/
 
 ## Credits
 
-Default config wallpaper: [Zaki (Artstation)](https://creatiflux.artstation.com/projects/xl3Nm)
-
+Default config wallpaper: [Zaki (Artstation)](https://creatiflux.artstation.com/projects/xl3Nm)  
+Some `Light` theme components: [archcraft-bspwm](https://github.com/archcraft-os/archcraft-bspwm) [Aditya Shakya](https://github.com/adi1090x)
