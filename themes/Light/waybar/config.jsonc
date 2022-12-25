@@ -27,7 +27,7 @@
 	"custom/sysmenu": {
 		"format": " [ menu ] ",
         "tooltip": false,
-		"on-click": "if [[ -z `pidof wofi` ]]; then wofi --show drun; else pkill -9 wofi; fi"
+		"on-click": "$HOME/.config/hypr/bin/launcher.sh"
 	},
 
 	"custom/media": {
