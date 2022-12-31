@@ -8,7 +8,6 @@
 
 ## Exports
 # Required for waybar tray items
-export XDG_CURRENT_DESKTOP=Unity
 export CONFIG_HOME="${HOME}/.config/hypr"
 export ACTIVE_THEME="${CONFIG_HOME}/themes/active"
 
