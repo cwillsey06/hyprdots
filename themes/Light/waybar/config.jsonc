@@ -9,7 +9,7 @@
     "spacing": 10,
 
 	// Module placement
-    "modules-left": ["custom/sysmenu", "wlr/workspaces", "hyprland/window"],
+    "modules-left": ["custom/sysmenu", "wlr/workspaces", "hyprland/window", "hyprland/submap"],
     "modules-center": ["custom/media"],
     "modules-right": ["custom/blanksep", "cpu", "memory", "custom/blanksep", "pulseaudio", "custom/blanksep", "clock", "tray"],
 
@@ -58,7 +58,11 @@
 	"hyprland/window": {
     	"max-length": 40
 	},
-
+	"hyprland/submap": {
+		"format": "{}",
+		"max-length": 8,
+		"tooltip": false
+	},
     "tray": {
         "spacing": 10
     },
