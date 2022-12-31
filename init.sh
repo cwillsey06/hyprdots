@@ -6,10 +6,9 @@
 
 ## Config [re]initialization file
 
-## Exports
-# Required for waybar tray items
-export CONFIG_HOME="${HOME}/.config/hypr"
-export ACTIVE_THEME="${CONFIG_HOME}/themes/active"
+## Globals
+CONFIG_HOME="${HOME}/.config/hypr"
+ACTIVE_THEME="${CONFIG_HOME}/themes/active"
 
 # Array of programs to kill
 programs=("swww-daemon" "xsettingsd" "waybar" "mako")
