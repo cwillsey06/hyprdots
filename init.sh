@@ -21,6 +21,7 @@ done
 # Reinitialize
 ${CONFIG_HOME}/bin/swww_init.sh &
 xsettingsd --config ${ACTIVE_THEME}/xsettingsd          &> /dev/null &
-waybar     --config ${ACTIVE_THEME}/waybar/config.jsonc &> /dev/null &
+waybar     --config ${ACTIVE_THEME}/waybar/config.jsonc \
+		    --style ${ACTIVE_THEME}/waybar/style.css    &> /dev/null &
 mako       --config ${ACTIVE_THEME}/makorc              &> /dev/null &
 
