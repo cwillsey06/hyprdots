@@ -24,8 +24,8 @@ wofi \
 ```
 
 The following dependencies can be found on Copr:  
-[`Hyprland-git`](https://copr.fedorainfracloud.org/coprs/kasion/Hyprland-gi)
-[`swaylock-effects`](https://copr.fedorainfracloud.org/coprs/eddsalkield/swaylock-effect)
+[`Hyprland-git`](https://copr.fedorainfracloud.org/coprs/kasion/Hyprland-git)
+[`swaylock-effects`](https://copr.fedorainfracloud.org/coprs/eddsalkield/swaylock-effects)  
 
 The following dependencies must be installed manually:  
 [`waybar-hyprland-git`](https://wiki.hyprland.org/Useful-Utilities/Status-Bars/#waybar)
