@@ -1,0 +1,16 @@
+width=100
+height=300
+location=top_left
+yoffset=-2
+show=drun
+prompt=launch
+filter_rate=100
+allow_markup=true
+no_actions=true
+halign=fill
+orientation=vertical
+content_halign=left
+insensitive=true
+image_size=40
+hide_scroll=true
+matching=fuzzy

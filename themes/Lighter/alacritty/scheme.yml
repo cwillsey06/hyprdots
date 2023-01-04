@@ -1,0 +1,32 @@
+### scheme.yml
+### cwillsey06
+### 2022-12-15 [20:52]
+
+colors:
+  primary:
+    background: '#fafafa'
+    foreground: '#383a42'
+
+  cursor:
+    text: '#fafafa'
+    cursor: '#383a42'
+
+  normal:
+    black:   '#383a42'
+    red:     '#e45649'
+    green:   '#50a14f'
+    yellow:  '#c18401'
+    blue:    '#0184bc'
+    magenta: '#a626a4'
+    cyan:    '#0997b3'
+    white:   '#909090'
+
+  bright:
+    black:   '#383a42'
+    red:     '#e45649'
+    green:   '#50a14f'
+    yellow:  '#c18401'
+    blue:    '#0184bc'
+    magenta: '#a626a4'
+    cyan:    '#0997b3'
+    white:   '#909090'
