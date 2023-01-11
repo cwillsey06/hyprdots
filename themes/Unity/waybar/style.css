@@ -1,0 +1,16 @@
+* {
+	color: #ffffff;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 13px;
+	border: none;
+	border-radius: 0;
+	min-height: 0;
+}
+
+window#waybar .modules-left {
+	font-weight: bold;
+}
+
+window#waybar {
+	background-color: #181818;
+}

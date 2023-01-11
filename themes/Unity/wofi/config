@@ -1,0 +1,15 @@
+width=150
+height=300
+location=top_left
+xoffset=64
+show=drun
+prompt=launch
+filter_rate=100
+allow_markup=true
+no_actions=true
+halign=fill
+orientation=vertical
+content_halign=left
+insensitive=true
+image_size=40
+hide_scroll=true

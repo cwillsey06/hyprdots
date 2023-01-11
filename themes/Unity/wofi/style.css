@@ -1,0 +1,31 @@
+* {
+	font-size: 9pt;
+	font-family: 'Ubuntu', sans-serif;
+	border-radius: 0;
+}
+window {
+	color: #383a42;
+	background-color: #181818;
+	border: none;
+}
+#input {
+	color: white;
+	background-color: transparent;
+	border: none;
+}
+#entry {
+	color: gray;
+	transition: all 500ms ease
+	background-color: transparent;
+}
+#entry:nth-child(even) {
+	background-color: rgba(255,255,255, 0.05);
+}
+#entry:selected {
+	color: white;
+	background-color: #e95420;
+	transition: all 100ms ease;
+	outline: none;
+	border: none;
+}
+
