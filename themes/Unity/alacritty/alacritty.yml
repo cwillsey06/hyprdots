@@ -20,7 +20,7 @@ window:
   history: 10000
   multiplier: 3
 
-  opacity: .9
+  opacity: .75
 
 cursor:
   style:

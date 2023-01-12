@@ -35,7 +35,7 @@
 	    "return-type": "json",
     	"format-icons": {
         	"Playing": "",
-        	"Paused": " "
+        	"Paused": "  "
 	    },
     	"max-length": 40,
 		"restart-interval": 5,
