@@ -4,14 +4,16 @@
 ### cwillsey06
 ### 2022-09-26 [03:59]
 
+launch_alacritty="alacritty --config-file $HOME/.config/hypr/themes/active/alacritty/alacritty.yml"
+
 case $1 in
     --float)
     shift
-    alacritty --class 'alacritty-float,alacritty-float' $@
+    $launch_alacritty --class 'alacritty-float,alacritty-float' $@
     ;;
     --full)
     shift
-    alacritty --class 'Fullscreen,Fullscreen'                     \
+    $launch_alacritty --class 'Fullscreen,Fullscreen'                     \
                        -o window.startup_mode=fullscreen          \
                           window.padding.x=30 window.padding.y=30 \
                           window.opacity=0.95 font.size=14        \
@@ -19,7 +21,7 @@ case $1 in
     ;;
     '')
     shift
-    alacritty $@
+    $launch_alacritty $@
     ;;
 esac
 

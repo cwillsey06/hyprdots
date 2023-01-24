@@ -1,0 +1,12 @@
+* {
+	color: #ebdbb2;
+    font-family: 'Monofur Nerd Font', sans-serif;
+    font-size: 13px;
+	border: none;
+	border-radius: 0;
+	min-height: 0;
+}
+
+window#waybar {
+	background-color: #282828;
+}
