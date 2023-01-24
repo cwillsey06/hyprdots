@@ -1,3 +1,5 @@
+**⚠️ Notice:** I'm done maintaining this for a little while. If I ever return, expect the whole config "system" to be vastly different.
+
 # Hyprdots ⚡
 
 [![Preview v1.0.0](https://i.ibb.co/0yrVmRY/preview-1-0-0.png)](https://i.ibb.co/0yrVmRY/preview-1-0-0.png)
